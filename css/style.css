@@ -7,10 +7,9 @@
   }
 
 .icon-bar {
-  padding-top: 70%;
   width: 100%;
   overflow: auto;
-  position: fixed;
+  background-color:rgb(179, 179, 179)
 }
 
 .icon-bar a {
@@ -29,4 +28,9 @@
 
 .active {
   background-color: #cb25f581;
+}
+
+.padding{
+  margin-top: 30%;
+  margin-bottom: 30%;
 }
