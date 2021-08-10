@@ -10,6 +10,7 @@
   padding-top: 70%;
   width: 100%;
   overflow: auto;
+  position: fixed;
 }
 
 .icon-bar a {
