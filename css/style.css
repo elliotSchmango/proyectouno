@@ -2,4 +2,30 @@
     text-align: center;
     font-size: 3em;
     font-family: "Andale Mono", monospace;
+    background-color: #cb25f581;
+    padding: 50px;
   }
+
+.icon-bar {
+  padding-top: 70%;
+  width: 100%;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: rgba(64, 153, 255, 0.425);
+}
+
+.active {
+  background-color: #cb25f581;
+}
